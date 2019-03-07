@@ -1,0 +1,61 @@
+<form bindsubmit="save">
+  <view class="container">
+    <view class="resource-label">设置项目</view>
+    <image style="width: 100%;height: 400rpx;" mode="scaleToFill" src="{{imgPath}}"></image>
+    <cover-view class="resource-image-button" bindtap="bindImageChange">
+      更改项目图片
+    </cover-view>
+    <view class="resource-info-wrapper">
+      <view class="resource-info-label">
+        项目名称：
+      </view>
+      <input value="{{resInfo.resName}}" placeholder="请填写" name="resName"></input>
+    </view>
+    <view class="resource-info-wrapper">
+      <view class="resource-info-label" name="resName">
+        项目日期：
+      </view>
+      <picker mode="date" value="{{date}}" start="2018-12-20" end="2019-01-30" bindchange="bindDateChange" name="date">
+        <view class=" resource-info-picker">
+          {{date}}
+        </view>
+      </picker>
+    </view>
+    <view class="resource-info-wrapper">
+      <view class=" resource-info-label">
+        项目时间：
+      </view>
+      <picker mode="time" value="{{startTime}}" start="00:00" end="24:00" bindchange="bindStartTimeChange" name = "resStartTime">
+        <view class=" resource-info-picker">
+          {{startTime}}
+        </view>
+      </picker>
+      <view class="resource-info-picker">/</view>
+      <picker mode="time" value="{{endTime}}" start="00:00" end="24:00" bindchange="bindEndTimeChange" name = "resEndTime">
+        <view class="resource-info-picker">
+          {{endTime}}
+        </view>
+      </picker>
+    </view>
+    <view class="resource-info-wrapper">
+      <view class="resource-info-label">
+        资源总数：
+      </view>
+      <input value="{{resInfo.totalCount}}" placeholder="请填写" type="number" name="totalCount"></input>
+    </view>
+    <view class="resource-info-wrapper">
+      <view class="resource-info-label">
+        项目地点：
+      </view>
+      <input value="{{resInfo.address}}" placeholder="请填写" name="address">
+      </input>
+    </view>
+    <view class="resource-label">备注信息</view>
+    <textarea value="{{resInfo.remark}}" class="resource-info-remarks" placeholder="请填写" name="remark">
+    </textarea>
+    <view class="resource-button-wrapper">
+      <button class="resource-save-button" form-type="submit">保存修改</button>
+      <button class="resource-cancel-button" bindtap="cancel">取消项目</button>
+    </view>
+  </view>
+</form>

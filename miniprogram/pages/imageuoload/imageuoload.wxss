@@ -1,0 +1,39 @@
+/* pages/imageuoload/imageuoload.wxss */
+.resource-button-wrapper {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.resource-release-button {
+  font-size: 30rpx;
+  color: #fff;
+  background-color: rgba(63, 81, 181, 0.8);
+  width: 60%;
+  height: 550rpx;
+  margin: 20rpx 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.resource-release-button2 {
+  font-size: 30rpx;
+  color: #fff;
+  background-color: rgba(63, 81, 181, 0.8);
+  width: 60%;
+  height: 550rpx;
+  margin: 20rpx 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.usermotto {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

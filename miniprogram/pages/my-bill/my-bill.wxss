@@ -1,0 +1,56 @@
+/* miniprogram/pages/my-bill/my-bill.wxss */
+.bill-info {
+    height: 150rpx;
+    width: 100%;
+    background: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-left: none;
+    border-right: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    transition: all 300ms ease;
+    bottom: 0;
+    position: fixed;
+}
+.bills-info {
+    height: 100rpx;
+    width: 100%;
+    background: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    transition: all 300ms ease;
+}
+
+.x8 {
+    width: 70%;
+    text-align: center;
+}
+.x2 {
+    width: 20%;
+    text-align: center;
+}
+.total {
+    font-size: 40rpx;
+    width: 50%;
+    text-align: center;
+    margin-left: 10%;
+}
+.add {
+    text-align: center;
+    height: 80rpx;
+    width: 250rpx;
+    /* border: 1px solid rgba(0, 0, 0, 0.1); */
+}
+.undere {
+  display:flex;
+  bottom: 170rpx;
+  position: fixed;
+  width: 100%;
+
+}

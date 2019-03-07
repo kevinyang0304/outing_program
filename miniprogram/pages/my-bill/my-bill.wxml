@@ -1,0 +1,85 @@
+<!--miniprogram/pages/my-bill/my-bill.wxml-->
+<view class="bills-info">
+    <view class="x8">
+        费用类型
+    </view>
+    <view class="x2">
+        费用金额
+    </view>
+</view>
+
+<view class="bills-info">
+    <view class="x8">
+        车费
+    </view>
+    <view class="x2">
+        <input placeholder="请填写" type="number" name="totalCount" value='{{carFee}}'
+        bindinput="carinput"></input>
+    </view>
+</view>
+<view class="bills-info">
+    <view class="x8">
+        餐费
+    </view>
+    <view class="x2">
+        <input placeholder="请填写" type="number" name="totalCount" value='{{eatFee}}'
+               bindinput="eatinput"></input>
+    </view>
+</view>
+<view class="bills-info">
+    <view class="x8">
+        购物费
+    </view>
+    <view class="x2">
+        <input placeholder="请填写" type="number" name="totalCount" value='{{shopFee}}'
+               bindinput="shopinput"></input>
+    </view>
+</view>
+<view class="bills-info">
+    <view class="x8">
+        场地费
+    </view>
+    <view class="x2">
+        <input placeholder="请填写" type="number" name="totalCount" value='{{placeFee}}'
+               bindinput="placeinput"></input>
+    </view>
+</view>
+<view class="bills-info">
+    <view class="x8">
+        其他
+    </view>
+    <view class="x2">
+        <input placeholder="请填写" type="number" name="totalCount" value='{{otherFee}}'
+               bindinput="otherinput"></input>
+    </view>
+</view>
+<view class="bills-info" style="height: 320rpx;border:none">
+    <view class="x2" style='width:10%;margin-left:5%;height:80%'>
+        备注
+    </view>
+    <view class="x8" style='width:70%;margin-left:5%;margin-top:6%'>
+        <textarea type="string" name="totalCount" value='{{bz}}'
+        style='vertical-align:middle;display:flex'bindinput="bzinput"></textarea>
+    </view>
+</view>
+
+<view class='undere'>
+    <!-- <view style='width:40%;margin-left:8%'>
+         <button class='add' bindtap='modify'>
+          修改
+          </button>
+    </view> -->
+          <button class='add' bindtap='modify'>
+              保存
+         </button>
+</view>
+
+
+<view class="bill-info">
+    <view class="total">
+        总金额：
+    </view>
+    <view class="total">
+        <input placeholder="请填写" type="number" name="totalCount" value='{{totalFee}}'></input>
+    </view>
+</view>

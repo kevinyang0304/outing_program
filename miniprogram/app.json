@@ -1,0 +1,53 @@
+{
+  "cloud": true,
+  "pages": [
+    "pages/res-list/res-list",
+    "pages/res-add/res-add",
+    "pages/my/my",
+    "pages/res-detail/res-detail",
+    "pages/my-info/my-info",
+    "pages/my-info-edit/my-info-edit",
+    "pages/my-order/my-order",
+    "pages/my-res/my-res",
+    "pages/my-order-detail/my-order-detail",
+    "pages/my-res-detail/my-res-detail",
+    "pages/my-bill/my-bill",
+    "pages/imageuoload/imageuoload",
+    "pages/album/album",
+    "pages/albumme/albumme",
+    "auth"
+  ],
+  "window": {
+    "backgroundColor": "#f6f6f6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#f6f6f6",
+    "navigationBarTitleText": "大学生出行",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#333333",
+    "selectedColor": "#3f51b5",
+    "backgroundColor": "#f6f6f6",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/res-list/res-list",
+        "text": "首页",
+        "iconPath": "images/mainPage0.png",
+        "selectedIconPath": "images/mainPage1.png"
+      },
+      {
+        "pagePath": "pages/res-add/res-add",
+        "text": "发布",
+        "iconPath": "images/res-add.png",
+        "selectedIconPath": "images/res-add-press.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "images/mine0.png",
+        "selectedIconPath": "images/mine1.png"
+      }
+    ]
+  }
+}

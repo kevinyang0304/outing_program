@@ -1,0 +1,18 @@
+<!--pages/imageuoload/imageuoload.wxml-->
+
+<image style="width: 100%;height: 400rpx;" mode="scaleToFill" src="{{imgPath}}"></image>
+<view class="usermotto">
+    <text class="user-motto">{{motto1}}</text>
+    
+  </view>
+<view class="usermotto">
+    
+    <text class="user-motto">{{motto2}}</text>
+  </view>
+<view class="resource-button-wrapper">
+      <button class="resource-release-button" bindtap='upload'>发布</button>
+      <button class="resource-release-button2" bindtap='album' data-album="{{img_arr}}">相册</button>
+      <button class="resource-release-button2" bindtap='albumme' data-album="{{img_arr}}">某用户相册</button>
+      <button class="resource-release-button2" bindtap='rigist' data-album="{{img_arr}}">预定</button>
+</view>
+

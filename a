@@ -1,0 +1,69 @@
+[33mcommit 64b0a89f983a53d299021f76551f4e071870695f[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: kevinYang <349606723@qq.com>
+Date:   Sun Feb 3 21:23:40 2019 +0800
+
+    photo_function
+    
+    照片相关功能
+
+[33mcommit 089adc928ec85c7e0f625c3d905daf7dbbf4f154[m
+Author: kevinYang <349606723@qq.com>
+Date:   Sun Feb 3 21:06:56 2019 +0800
+
+    readme
+    
+    change README.md
+
+[33mcommit feadf741c1cba014824db27fe30fc0d081ed3705[m
+Author: kevinYang <349606723@qq.com>
+Date:   Sun Feb 3 21:05:23 2019 +0800
+
+    photos_function
+    
+    照片相关功能
+
+[33mcommit b4584c6e1a2c12f47dea463b7b41f07e9aedc530[m
+Author: kevinYang <349606723@qq.com>
+Date:   Sun Feb 3 20:56:49 2019 +0800
+
+    bill_function
+    
+    账单相关功能
+
+[33mcommit ed4b04ec7bd2f24261b166068a8f6576405c4e18[m
+Author: kevinYang <349606723@qq.com>
+Date:   Sun Feb 3 12:13:55 2019 +0800
+
+    Revert "Revert "111""
+    
+    This reverts commit b491d313c745548e7c7c9341baf4c22f703c963a.
+
+[33mcommit b491d313c745548e7c7c9341baf4c22f703c963a[m
+Author: kevinYang <349606723@qq.com>
+Date:   Sun Feb 3 12:13:46 2019 +0800
+
+    Revert "111"
+    
+    This reverts commit 9d4803c9d558ff0e29d73eb046a4494ff4ebcda8.
+
+[33mcommit 59debca6f596567fcb1db42abef893d66ab3d5c0[m
+Author: kevinYang <349606723@qq.com>
+Date:   Sun Feb 3 12:13:34 2019 +0800
+
+    photos
+    
+    photos functions
+
+[33mcommit 9d4803c9d558ff0e29d73eb046a4494ff4ebcda8[m
+Author: kevinYang <349606723@qq.com>
+Date:   Sun Jan 13 22:58:37 2019 +0800
+
+    111
+    
+    2
+
+[33mcommit 3f28594af12547a25e8746c4ac01b1f0dc5a6631[m
+Author: unknown <unknown@example.com>
+Date:   Sun Jan 13 16:50:09 2019 +0800
+
+    Initial Commit

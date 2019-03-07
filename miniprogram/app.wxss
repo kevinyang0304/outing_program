@@ -1,0 +1,18 @@
+/**app.wxss**/
+
+.container {
+  box-sizing: border-box;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.color-green {
+  color: rgba(74, 195, 83, 0.8);
+}
+
+.color-yellow {
+  color: rgba(255, 152, 0, 0.8);
+}
+
+.color-red {
+  color: rgba(229, 28, 35, 0.8);
+}
